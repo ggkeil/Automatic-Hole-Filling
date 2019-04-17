@@ -9,6 +9,10 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
+def strucuringElement():
+    SE = np.ones((3,3))
+    return SE
+
 def formMarkerImg(image):
     iH = image.shape[0]
     iW = image.shape[1]
