@@ -46,7 +46,7 @@ def MorphRecon(marker, mask, SE, n):
     
     return result # after all iterations, return the resulting image of the morphological reconstruction
     
-original = cv2.imread("DesignWithHoles.jpg") # read in image
+original = cv2.imread("DesignWithHoles2.jpg") # read in image
 
 gray = cv2.cvtColor(original, cv2.COLOR_BGR2GRAY) # convert to grayscale
 
